@@ -1,38 +1,17 @@
 .App {
-  text-align: center;
+   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about h1{
+   color: white;
+   }
+body{
+   background-image: url(https://img1.wallspic.com/crops/6/2/3/3/4/143326/143326-galaxia_de_andromeda-el_espacio_exterior-universo-estrella-via_lactea-1920x1080.jpg);
+   /* background-size: cover; */
+   background-size:cover;
+   width: 100%;
+   height: 100vh;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: #080A1F;
 }

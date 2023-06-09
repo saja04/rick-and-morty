@@ -1,0 +1,31 @@
+.input{
+    border-radius: 10px 0px 0px 10px;
+    width: 400px;
+    height: 30px;
+    background-color: #3E3E3E;
+    border-style: solid;
+    border-color: rgb(94, 94, 94);
+    border-width: 1px;
+}
+.input:focus{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.boton{
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px 10px 10px 0px;
+    border-color: rgb(94, 94, 94);
+    width: 50px;
+    height: 30px;
+    color: antiquewhite;
+}
+.boton:hover{
+    background-color: black;
+}
+.searchbar{
+    display: inline-flex;
+    width: auto
+}

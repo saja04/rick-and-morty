@@ -1,0 +1,90 @@
+
+
+.card {
+    position: relative;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/696/386/original/portal-in-space-to-other-universes-png.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #4ACB16;
+    min-width: 250px;
+    padding: 10px;
+    height: auto;
+    margin-bottom: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+    align-items: center;
+    width: fit-content;
+    display: inline-flex;
+    flex: 1;
+    flex-direction: column;
+    white-space: nowrap;
+    
+}
+.card img {
+    border-radius: 10px;
+    /* margin: px; */
+    text-align: center;
+    width: 180px;
+    border: 2px solid white;
+}
+.card h2{
+    text-align: center;
+    font-size:medium;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #83bd0f;
+    padding: 3px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    max-height: 150px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    display: inline-flex;
+}
+.card .cerrar {
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card .cerrar:hover{
+    background-color: white;
+    color: black;
+}
+.card .detail{
+    border-radius: 10px;
+    margin-top: 20px;
+} 
+.card .boton1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: transparent;
+}
+.card .boton1 .NavLink {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.card .boton1:hover{
+    background-color: rgb(255, 255, 255);
+    .NavLink{color: black;}
+}
